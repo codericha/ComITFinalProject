@@ -1,0 +1,124 @@
+
+
+
+/*  For small screens (mobile) */
+
+@media screen and (max-width: 600px)
+{
+body {
+  font-family: 'Inconsolata', monospace;
+  
+  line-height: 1.5;
+  background: 
+  linear-gradient(
+    rgba(15, 15, 15, 0.8), 
+    rgba(15, 15, 15, 0.8)
+  ),
+  url(../img/CalgaryTower.jpeg) no-repeat fixed; 
+  background-position: center top;
+  background-size: cover;
+  padding: 0;
+  margin: 0 auto 0 auto;
+  color: #ffffff;
+  
+}
+}
+
+
+
+
+
+/* body{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: beige;
+  background-color: black;
+background-position-x: right;
+background-position-y: top;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-image: url(../img/CalgaryTower.jpeg);
+background-size: auto;
+background-origin: padding-box;
+background-clip: border-box;
+height: 1398px;
+width: 1600px;
+margin: 0 0 0 auto;
+padding-left: 50px;
+
+} */
+
+body a {
+  color: #ff4500;
+  text-decoration: none;
+}
+
+body .content h1{
+  font-weight: normal;
+  padding: 25px 0 0;
+  margin: 0px;
+  font-size: 120px;
+}
+
+
+body .content p{
+  font-size: 20px;
+  margin: 5px 0 10px 10px;
+  padding: 0px;
+}
+
+.header  {
+  
+    font-size: 45px;
+    color: #ffffff;
+    padding: 15px;
+  
+}
+
+.content{
+  max-width: 500px;
+  padding: 15px ;
+}
+
+footer {
+  padding: 15px;
+  font-size: 20px ;
+}
+
+/* For tablets */
+@media screen and (min-width: 600px)
+{
+  body{
+    font-family: 'Inconsolata', monospace;  
+    line-height: 1.5;  
+    background: linear-gradient( rgba(15, 15, 15, 0.5), 
+    rgba(15, 15, 15, 0.5)),
+     url(../img/CalgaryTower.jpeg) no-repeat fixed; 
+    color:  #ffffff;
+    background-size: cover;
+
+
+}
+
+
+/* For Desktops */
+
+@media screen and (min-width: 768px)
+{
+  body{
+    font-family: 'Inconsolata', monospace;  
+    line-height: 1.5;
+    background: url(../img/CalgaryTower.jpeg) no-repeat fixed; 
+    color: #000000;
+    font-weight: bold;
+    background-size: cover;
+      
+  }
+}
+
+ 
+}
+
+/*
+Font and style copied from Aaron Champagne's website
+Tinted background code borrowed from https://css-tricks.com/tinted-images-multiple-backgrounds/
+*/
